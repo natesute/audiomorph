@@ -13,6 +13,15 @@ atmosphere that pulses with the bass, a complementary spark field, and a
 filmic post stack (bloom, anamorphic streaks, chromatic aberration,
 AgX‑Punchy grade).
 
+| 4s | 12s | 19s |
+|:--:|:---:|:---:|
+| ![](docs/preview_120.jpg) | ![](docs/preview_360.jpg) | ![](docs/preview_580.jpg) |
+
+Sample frames from the 20-second demo (`output/audiomorph_beat25_demo/audiomorph_beat25_demo.mp4`).
+The form's hue, ring colour, and spotlight palette are all driven by
+the dominant chroma class detected per frame — so as the song modulates,
+the scene's whole colour world rotates with it.
+
 ## Pipeline
 
 ```
