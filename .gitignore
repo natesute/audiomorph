@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Blender
+*.blend1
+*.blend@
+
+# Outputs - keep the directory layout but not the heavy artefacts.
+output/**/frames/
+output/**/*.blend
+output/**/*.blend1
+output/**/*.json
+output/**/scene_*.blend
+
+# Allow the demo video to be committed (it's the deliverable).
+!output/**/*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
